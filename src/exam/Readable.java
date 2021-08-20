@@ -1,5 +1,9 @@
 package exam;
 
 public interface Readable {
-	//Part 1: Complete this interface
+	
+	String title();
+	int numPages();
+	boolean isBook();
+	int getNumArticles();
 }
